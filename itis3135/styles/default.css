@@ -1,0 +1,27 @@
+.bodyParagraph {
+    padding: 10px;
+    max-width: 600px;
+}
+
+.listHeader {
+    padding-left: 10px;
+}
+
+.companyTag {
+    text-align: center;
+    margin: auto;
+    padding-top: 30px;
+}
+
+li {
+    padding-left: 30px;
+    max-width: 600px;
+}
+
+h1, h2 {
+    padding-left: 10px;
+}
+
+body {
+    background-color:rgba(127, 255, 212, 0.5);
+}
