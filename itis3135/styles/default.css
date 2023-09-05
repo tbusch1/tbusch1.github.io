@@ -18,6 +18,10 @@
     margin: auto;
 }
 
+.htmlValidator, .cssValidator {
+    magin: auto;
+}
+
 li {
     padding-left: 30px;
     max-width: 600px;
