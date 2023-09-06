@@ -35,6 +35,8 @@ li {
 }
 
 h1, h2, h3 {
-    padding-left: 10px;
+    text-align: center;
+    margin: auto;
+    color: ivory;
 }
 
