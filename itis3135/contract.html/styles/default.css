@@ -1,18 +1,21 @@
+/* contract css stylesheet */
 body {
-    background-color: rgb(47, 41, 64);
+    background-color:rgb(47, 41, 64);
 }
 
 h1, h2 {
+    color: ivory;
     text-align: center;
     margin: auto;
-    color: ivory;
-    padding-bottom: 10px;
 }
 
 p {
+    color: ivory;
     text-align: center;
     margin: auto;
-    color: ivory;
+    max-width: 500px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 a {
