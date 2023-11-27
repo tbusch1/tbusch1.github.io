@@ -1,7 +1,7 @@
 /* introduction css stylesheet */
 
 body {
-    background-color:rgb(47, 41, 64);
+    background-color:#2f2940;
 }
 
 .listHeader {
@@ -24,11 +24,13 @@ p {
     margin: auto;
     max-width: 600px;
     color: ivory;
-    padding: 10px;
-    max-width: 600px;
 }
 
-li {
+.padded {
+    padding: 10px;
+}
+
+.classes {
     margin: auto;
     padding-left: 60px;
     padding-top: 10px;
@@ -53,6 +55,119 @@ a:hover {
 }
 
 a:visited {
-    color: grey
+    color: ivory;
 }
 
+h3 {
+    padding-top: 10px;
+}
+
+.employee {
+    margin: auto;
+    padding-left: 60px;
+    padding-bottom: 10px;
+    max-width: 600px;
+    color: ivory;
+}
+
+table, th, td {
+    color: ivory;
+    text-align: left;
+    margin: auto;
+    border: 1px solid ivory;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 2px;
+}
+
+figcaption {
+    color: ivory;
+    margin-left: 27%;
+}
+
+.designedBy {
+    color: ivory;
+    margin: auto;
+    text-align: center;
+}
+
+table tr:nth-child(even) {
+    background-color: rgb(60, 52, 81);
+}
+table tr:nth-child(odd) {
+    background-color: rgb(41, 36, 57);
+}
+
+.navbar {
+    margin: auto;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.body-text {
+    margin: auto;
+    max-width: 600px;
+    color: ivory;
+    padding: 10px;
+    max-width: 600px;
+}
+
+.input-label {
+    margin-left: 20%;
+}
+
+.text-input {
+    display: block;
+    margin: 5px auto auto auto;
+    width: 60%;
+}
+
+.clickables {
+    display: block;
+    margin: 1px auto auto auto;
+    width: 60%;
+}
+
+.submit-button {
+    margin: auto;
+    width: 10%;
+    display: block;
+    background-color: rgb(41, 36, 57);
+    border-color: ivory;
+    color: ivory;
+    margin-bottom: 2px;
+}
+
+.company-logo {
+    width: 10%;
+    height: 10%;
+    display: block;
+    margin: auto;
+    
+}
+
+li {
+    color: ivory;
+}
+
+ul {
+    display: block;
+    margin: auto;
+    max-width: 600px;
+    
+}
+
+.indented {
+    width: 45%;
+    margin: auto;
+}
+
+.upper-padding {
+    padding-top: 5px;
+}
+
+footer {
+    padding-top: 15px;
+}

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>ITIS3135 | Tables</title>
+        <link rel="stylesheet" href="../styles/default.css">
+    </head>
+    <body>
+        
+        <header>
+            <h1>Activity #2 - HTML Tables</h1>
+            <h3>My Tabular Data</h3>
+        </header>
+        <div data-include="../components/header.html"></div>
+        <main>
+            <ol>
+                <li class="employee">Zoe Miller zmills26@outlook.com 4</li>
+                <li class="employee">Anderson Lyle aglyle@yahoo.com 3</li>
+                <li class="employee">Max McDonald mamcdon@gmail.com 14</li>
+                <li class="employee">Jackson Holloman jah@buschlimited.com 6</li>
+                <li class="employee">Noah Briggs npbriggs@gmail.com 25</li>
+                <li class="employee">Fatima Elhanouch felhanouch@yahoo.com 4</li>
+                <li class="employee">Johnny Monroe johmoh52@gmail.com 16</li>
+            </ol>
+            <h3>Employee Data in Simple Table</h3>
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Years Served</th>
+                </tr>
+                <tr>
+                    <td>Zoe Miller</td>
+                    <td>zmills26@outlook.com</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>Anderson Lyle</td>
+                    <td>aglyle@yahoo.com</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>Max McDonald</td>
+                    <td>mamcdon@gmail.com</td>
+                    <td>14</td>
+                </tr>
+                <tr>
+                    <td>Jackson Holloman</td>
+                    <td>jah@buschlimited.com</td>
+                    <td>6</td>
+                </tr>
+                <tr>
+                    <td>Noah Briggs</td>
+                    <td>npbriggs@gmail.com</td>
+                    <td>25</td>
+                </tr>
+                <tr>
+                    <td>Fatima Elhanouch</td>
+                    <td>felhanouch@yahoo.com</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>Johnny Monroe</td>
+                    <td>johmoh52@gmail.com</td>
+                    <td>16</td>
+                </tr>
+            </table>
+            <h3>Employee Data in Complex Table</h3>
+            <figure>
+                <table>
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Years Served</th>
+                        <th>Salary</th>
+                        <th>Role</th>
+                    </tr>
+                    <tr>
+                        <td>Zoe Miller</td>
+                        <td>zmills26@outlook.com</td>
+                        <td>4</td>
+                        <td>$100,000,000</td>
+                        <td rowspan="4">Sales</td>
+                    </tr>
+                    <tr>
+                        <td>Anderson Lyle</td>
+                        <td>aglyle@yahoo.com</td>
+                        <td>3</td>
+                        <td>$24,000</td>
+                    </tr>
+                    <tr>
+                        <td>Max McDonald</td>
+                        <td>mamcdon@gmail.com</td>
+                        <td>14</td>
+                        <td>$6,000</td>
+                    </tr>
+                    <tr>
+                        <td>Jackson Holloman</td>
+                        <td>jah@buschlimited.com</td>
+                        <td>6</td>
+                        <td>$76,000</td>
+                    </tr>
+                    <tr>
+                        <td>Noah Briggs</td>
+                        <td>npbriggs@gmail.com</td>
+                        <td>25</td>
+                        <td>$124,000</td>
+                        <td>Financials</td>
+                    </tr>
+                    <tr>
+                        <td>Fatima Elhanouch</td>
+                        <td>felhanouch@yahoo.com</td>
+                        <td>4</td>
+                        <td>$61,000</td>
+                        <td rowspan="2">Marketing</td>
+                    </tr>
+                    <tr>
+                        <td>Johnny Monroe</td>
+                        <td>johmoh52@gmail.com</td>
+                        <td>16</td>
+                        <td>$84,000</td>
+                    </tr>
+                    <tr>
+                        <th colspan="2">Total Years of Serviced</th>
+                        <td>72</td>
+                        <th>Sum of Salaries</th>
+                        <td>$100,375,000</td>
+                    </tr>
+                    
+                </table>
+                <figcaption>Q1 2023 Employee Data</figcaption>
+            </figure>
+        </main>
+        <footer>
+            <div data-include="../components/footer.html"></div>
+        </footer>
+        <script src="../scripts/HTMLInclude.min.js"></script>
+    </body>
+</html>

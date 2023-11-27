@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>ITIS3135 | Forms</title>
+        <link rel="stylesheet" href="../styles/default.css">
+    </head>
+    <body>
+        <main>
+            <h2>Activity #3 - HTML Forms</h2>
+            <div data-include="../components/header.html"></div>
+            <form action="#">
+                <div class="body-text">
+                    <label class="body-text input-label" for="name">Name:
+                        <input placeholder="John Doe" required class="text-input" type="text" id="name">
+                    </label>
+                </div>
+                <div class="body-text">
+                    <label class="body-text input-label" for="telephone">Phone #:
+                        <input size="10" maxlength="10" required class="text-input" type="tel" id="telephone">
+                    </label>
+                </div>
+                <div class="body-text">
+                    <label class="body-text input-label" for="email">Email Address:
+                        <input placeholder="name@business.com" required class="text-input" type="email" id="email">
+                    </label>
+                </div>
+                <div class="body-text">
+                    <label class="body-text input-label">Coding Languages:</label>
+                        <br><label class="clickables" for="html"><input type="checkbox" id="html">HTML</label>
+                        <label class="clickables" for="css"><input type="checkbox" id="css">CSS</label>
+                        <label class="text-input" for="js"><input type="checkbox" id="js">JS</label>
+                </div>
+                <div class="body-text">
+                    <label class="body-text input-label">Years Experience:</label>
+                        <br><label class="clickables" for="less-than-2"><input type="radio" id="less-than-2" name="years">&lt;2 Years</label>
+                        <label class="clickables" for="about-2"><input type="radio" id="about-2" name="years">About 2 Years</label>
+                        <label class="clickables" for="greater-than-2"><input type="radio" id="greater-than-2" name="years">&gt;2 Years</label>
+                </div>
+                <div class="body-text">
+                    <label class="body-text input-label" for="referrer">How did you learn about us?
+                        <select id="referrer" class="text-input">
+                            <option value="">select option</option>
+                            <option value="friend">Through a friend</option>
+                            <option value="internet">Through the internet</option>
+                            <option value="newspaper">Through the newspaper</option>
+                        </select>
+                    </label>
+                </div>
+                <input class="submit-button" type="submit" value="Submit">
+                <input class="submit-button" type="reset" value="Reset">
+            </form>
+        </main>
+        <footer>
+            <div data-include="../components/footer.html"></div>
+        </footer>
+        <script src="../scripts/HTMLInclude.min.js"></script>
+    </body>
+</html>
