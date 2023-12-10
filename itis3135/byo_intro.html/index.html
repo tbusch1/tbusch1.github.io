@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>BYO Intro</title>
+        <link rel="stylesheet" href="../styles/default.css">
+    </head>
+    <body>
+        <header>
+            <h1>BYO Intro</h1>
+        </header>
+        <div data-include="../components/header.html"></div>
+        <main>
+            <h3>Time to BYO Intro page, please fill out the form below so we can create your personalized page.</h3>
+            <form>
+                <label for="name">Name:</label> <!-- name -->
+                <input type="text" id="name" name="name" value="Tom Busch" required>
+                <label for="mascot">Mascot:</label> <!-- mascot -->
+                <input type="text" id="mascot" name="mascot" value="Ticklish Bear" required>
+
+                <label for="fileinput">Mascot Image:</label> <!-- mascot pic -->
+                <input type="file" id="fileinput" name="fileinput" required> 
+                <label for="filetext">Mascot Image Caption:</label> <!-- mascot caption -->
+                <input type="text" id="filetext" name="filetext" value="Ticklish Bear Mascot" required>
+
+                
+            </form>
+        </main>
+        <footer>
+            <div data-include="../components/footer.html"></div>
+        </footer>
+        <script src="../scripts/HTMLInclude.min.js"></script>
+    </body>
+</html>

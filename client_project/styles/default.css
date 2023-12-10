@@ -1,0 +1,151 @@
+/* background, overflow, and font */
+
+body {
+    font-family: Garamond, serif;
+    background-color: #FFFBBD;
+    overflow-x: hidden;
+}
+
+/* basic text styling */
+
+p, li {
+    width: 60%;
+    margin: auto;
+    padding-bottom: 15px;
+    font-size: 20px;
+    color: #463F3A;
+}
+
+.page-header {
+    margin: auto;
+    width: 30%;
+    text-align: center;
+    padding-bottom: 15px;
+    font-size: 40px;
+    color: #EFB2CB;
+}
+
+/* nav bar styling */
+
+.nav-header {
+    width: 24.9%;
+    font-size: 30px;
+    padding-left: 25px;
+    display: inline-block;
+    color: #D0F4DE;
+}
+
+.nav-link {
+    display: inline-block;
+    font-size: 20px;
+    padding-left: 5%;
+    width: 9%;
+    text-align: right;
+    color: #D0F4DE;
+}
+
+.nav-bar a:hover {
+    color: #b2d9c1;
+}
+
+.nav-bar {
+    margin-bottom: 10px;
+    background-color: #D7B9D5;
+    margin: -10px -10px 10px -10px;
+}
+
+.indented {
+    padding-left: 80px;
+}
+
+.credential-header {
+    text-decoration: underline;
+}
+
+/* styling and placement for availability schedule */
+
+.time-available {
+    text-align: right;
+    width: 15%;
+    margin-right: 40%;
+}
+
+.day-label {
+    text-align: left;
+    width: 10%;
+    margin-left: 25%;
+}
+
+.schedule p {
+    display: inline-block;
+}
+
+/* footer styling */
+
+.designedBy {
+    margin: auto;
+    width: 30%;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 15px;
+    color: #EFB2CB;
+}
+
+.validator-button {
+    display: inline-block;
+    width: 12%;
+}
+
+.validator-button:first-of-type {
+    padding-top: 20px;
+}
+
+.validators {
+    padding-left: 43%;
+}
+
+.calendar {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 49%;
+}
+
+.certificate1 {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 33%;
+}
+
+figcaption {
+    margin: auto;
+    font-size: 15px;
+    color: #463F3A;
+}
+
+.certificate2 {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 49%;
+}
+ /* about me image formatting */
+
+ .about-me-image {
+    float: right;
+    width: 39%;
+    
+}
+
+ .about-me-text {
+    text-align: justify;
+    width: 60%;
+}
+
+.block {
+
+}

@@ -165,9 +165,37 @@ ul {
 }
 
 .upper-padding {
+    padding-top: 10px;
+}
+
+.half-upper-padding {
     padding-top: 5px;
 }
 
 footer {
     padding-top: 15px;
+}
+
+.validator-button {
+    display: inline-block;
+    width: 12%;
+}
+
+.validator-button:first-of-type {
+    padding-top: 20px;
+}
+
+.validators {
+    padding-left: 43%;
+}
+
+.centered-image {
+    margin: auto;
+    display: block;
+}
+
+.centered-fig {
+    margin: auto;
+    display: block;
+    width: 30%;
 }
